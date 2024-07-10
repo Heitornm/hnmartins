@@ -170,7 +170,6 @@ Responsive media queries
 }
 div.row{
   height: auto;
-  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   padding-top: 3em;
 }
