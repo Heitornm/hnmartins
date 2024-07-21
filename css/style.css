@@ -111,7 +111,7 @@ Responsive media queries
 }
 
 .wrapper{
-  height: 99vh;
+  height: 100vh;
   background-image: url('../img/heitorsfundo.png');
   background-size: contain;
   margin-top: 1px;
@@ -166,7 +166,7 @@ Responsive media queries
 }
 .conteiner .row{
   margin-bottom: 1px;
-  
+
 }
 div.row{
   height: auto;
@@ -185,7 +185,7 @@ section#about{
   background-size: cover;
   margin-bottom: -3px;
   color: white;
-  text-shadow: black 1px 1px 1px;
+  text-shadow: black 2px 2px 2px;
   padding-top: 100px;
   height: 100vh;
 
@@ -207,8 +207,13 @@ section#about{
 
 .about-text p {
   color: white;
-  margin-top: 5em;
+  margin-top: 2em;
+  padding: 2.2em;
+  border-radius: 15px;
   text-shadow: black 1px 1px 2px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-justify: auto;
+
 }
 
 .abt-list li {
@@ -274,8 +279,9 @@ blockquote {
 }
 
 #contact {
-  width: 100%;
+  width: 100vw;
   background-color: RGBA(8, 7, 7, 0.92);
+  height: 100vh;
 }
 
 #contact .btn-primary {
@@ -432,7 +438,7 @@ Responsive media queries
   }
 }
 
-@media (min-width: 100px) and (max-width: 550px) {
+@media (min-width: 100px) and (max-width: 464px) {
   .navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 15px;
