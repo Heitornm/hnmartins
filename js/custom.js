@@ -24,6 +24,8 @@
 
       event.preventDefault();
     }
+
+    $('.carousel').carousel()
   });
 
   // About section scroll
