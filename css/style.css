@@ -200,7 +200,7 @@ Responsive media queries
 div.row{
   height: auto;
   border-radius: 10px;
-  padding-top: 3em;
+  padding-top: 1em;
 }
 
 section#about{
@@ -212,10 +212,9 @@ section#about{
 #about {
   background: url('../img/port03.jpg') no-repeat;
   background-size: cover;
-  margin-bottom: -3px;
   color: white;
   text-shadow: black 2px 2px 2px;
-  padding-top: 100px;
+  padding-top: 1em;
   height: 100vh;
 
 }
@@ -230,7 +229,8 @@ section#about{
 }
 
 .title-text {
-  padding: 50px 45px 0px 0px;
+  padding-top: 3em;
+  padding-right: 2em;
   font-size: 24px;
 }
 
@@ -415,6 +415,7 @@ footer {
   opacity: .5;
   display: inline-block;
   margin: 0;
+  color: #dbd8d8;
 }
 
 .social-list li a {
