@@ -75,7 +75,7 @@ Responsive media queries
 ***********************************/
 
 .header {
-  background-color: #333333;
+  background-color: #222222;
   background-size: auto;
   background-repeat: no-repeat;
   margin-bottom: 1px;
@@ -126,7 +126,7 @@ Responsive media queries
 
 .top-nav-collapse {
   padding: 0;
-  background: rgba(50, 60, 70, 0.9);
+  background: rgba(50, 60, 70, 0.656);
 }
 
 .bg-color {
@@ -141,6 +141,7 @@ Responsive media queries
 
 .wrapper{
   height: 100vh;
+  width: 100vw;
   background-image: url('../img/heitorsfundo.png');
   background-size: contain;
   margin-top: 1px;
@@ -206,6 +207,7 @@ div.row{
 section#about{
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 15em;
 }
 
 
@@ -309,7 +311,7 @@ blockquote {
 
 #contact {
   width: 100vw;
-  background-color: RGBA(8, 7, 7, 0.92);
+  background-color:#222222;
   height: 100vh;
 }
 
@@ -387,7 +389,7 @@ footer {
 .contact-sec p {
   color: #fff;
   font-size: 18px;
-  padding: 16px 0px 24px;
+  padding-top: 6em;
 }
 
 .contact-sec i {
@@ -402,6 +404,8 @@ footer {
   transition: all 0.5s ease-in 0s;
   border-radius: 70%;
   padding: 1.7em;
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
 .carousel-info, blockquote {
