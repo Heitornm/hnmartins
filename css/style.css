@@ -282,9 +282,8 @@ div.row{
 }
 
 section#about{
-  height: 100vh;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 15em;
 }
 
 
@@ -334,7 +333,7 @@ section#about{
   background-color: #f0f1e9;
   padding-top: 8%;
   width: 98vw;
-  margin: 15px;
+  margin-left: 1%;
 }
 
 
