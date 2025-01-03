@@ -283,6 +283,7 @@ div.row{
 
 section#about{
   height: auto;
+  width: 99vw;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
