@@ -1,3 +1,8 @@
+.card-deck {
+  display: flex;
+}
+
+
 
 a {
   color: #212534;
@@ -31,11 +36,6 @@ letter-spacing: 0.8px;
 
 ol, ul, li {
   list-style: none;
-}
-
-
-div.card-group {
-  display: flex;
 }
 
 
