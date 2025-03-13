@@ -1,0 +1,12 @@
+{
+    "usuario": [
+        {
+            "nome":"Heitor",
+            "nascimento":"16/10/1989"
+        },
+        {
+            "nome":"Veronica",
+            "nascimento":"25/09/1990"
+        }
+    ]
+}
